@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submission - Tech Store 3D Website - 262834</title>
+  <style>
+    body { font-family: Inter, sans-serif; max-width: 800px; margin: 60px auto; color: #222; }
+    h1   { color: #1a1f2e; margin-bottom: 8px; }
+    h2   { color: #4a9eff; font-size: 14px; margin-top: 28px; text-transform: uppercase; letter-spacing: 1px; }
+    a    { color: #4a9eff; }
+    p    { line-height: 1.7; color: #444; }
+    .meta { background: #f4f6fb; border: 1px solid #d0d8ee; padding: 16px 20px; border-radius: 8px; margin: 20px 0; }
+  </style>
+</head>
+<body>
+  <h1>Tech Store 3D Website</h1>
+  <div class="meta">
+    <strong>Student ID:</strong> 262834 &nbsp;|&nbsp;
+    <strong>Module:</strong> Web3D Applications &nbsp;|&nbsp;
+    <strong>Date:</strong> May 2026
+  </div>
+
+  <h2>1. ITS Web Server URL</h2>
+  <p><a href="YOUR_ITS_URL_HERE">http://users.sussex.ac.uk/~jw909/Web3D-V6/</a></p>
+
+  <h2>2. GitHub Codebase URL</h2>
+  <p><a href="YOUR_GITHUB_REPO_URL">https://github.com/JSW20/Web3D-Assignment-262834</a></p>
+
+  <h2>3. GitHub Models URL</h2>
+  <p><a href="YOUR_GITHUB_MODELS_FOLDER_URL">https://github.com/JSW20/Web3D-Assignment-262834/tree/main/blend</a></p>
+
+  <h2>4. Deeper Understanding Statement</h2>
+<p>
+  This project goes beyond the lab tutorials in several areas.
+  (1) All four 3D models — Laptop Pro, Flip Phone Pro, EarPods Pro,
+  and Fold Phone Pro — were designed and built entirely from scratch
+  in Blender rather than using the Coca-Cola can example from the labs.
+  Each model includes custom geometry, hinge systems, materials,
+  and animated moving parts.
+  (2) I implemented custom open/close animations for every model using
+  per-frame delta-time interpolation and pivot-based rotation systems,
+  going beyond the simple rotation examples covered in the labs.
+  (3) The project includes a custom GLSL rim/glow shader written using
+  ShaderMaterial with custom vertex and fragment shaders, including
+  live GPU uniform updates for changing rim colours dynamically.
+  (4) Three separate lighting environments (Studio, Neon, and Daylight)
+  were created alongside an independently toggleable spotlight system.
+  (5) The Web Audio API is used to procedurally synthesise ambient audio,
+  animation sounds, and interaction feedback without external audio files.
+  (6) Product information is loaded dynamically from products.json using
+  fetch() and AJAX techniques before the application initialises.
+  (7) HTML5 video integration, Canvas API-generated thumbnails,
+  colour finish swapping, animated camera presets, and OrbitControls
+  interactivity were all added independently to extend the functionality
+  beyond the original lab exercises.
+  (8) The project follows an MVC-style modular structure using separate
+  JavaScript files (data.js, scene.js, models.js, ui.js), improving
+  organisation, scalability, and maintainability.
+</p>
+
+<h2>5. Testing Summary</h2>
+<p>
+  The project was tested in both Chrome and Safari on macOS using
+  structured black-box testing methods covered during Lab 11.
+  All four GLB models load correctly from the server and display
+  properly inside the Three.js scene. The Animate controls, wireframe
+  mode, lighting presets, spotlight toggle, camera presets,
+  auto-spin, OrbitControls interaction, colour finish switching,
+  GLSL rim shader, rim colour cycling, HTML5 video panel,
+  Canvas-generated thumbnails, and Web Audio functionality were all
+  tested successfully. JSON product data loads correctly before
+  application initialisation, and all content swapping updates
+  specifications, thumbnails, descriptions, colours, and models
+  correctly when selecting a new product. The About page layout,
+  evidence galleries, keyboard navigation, and accessibility features
+  were also tested successfully. The completed application was deployed
+  and verified on the University of Sussex ITS web server.
+</p>
+</body>
+</html>

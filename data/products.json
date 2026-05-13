@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": "laptop",
+      "num": "MODEL 01",
+      "name": "Laptop Pro",
+      "tag": "High-Performance Laptop",
+      "file": "models/laptop-pro.glb",
+      "video": "assets/video/laptop-pro.mp4",
+      "scale": 0.76,
+      "offsetY": -0.18,
+      "description": "A slim, high-performance clamshell laptop featuring an aluminium chassis, full-size keyboard, and precision trackpad. The screen opens smoothly from closed to 110 degrees.",
+      "specs": [
+        ["Display", "14\" IPS, 2560x1600"],
+        ["CPU", "Intel Core i7-1360P"],
+        ["RAM", "16 GB DDR5"],
+        ["Storage", "512 GB NVMe SSD"],
+        ["Weight", "1.55 kg"]
+      ],
+      "colours": [
+        { "label": "Silver", "hex": "#c2ccd6" },
+        { "label": "Space Grey", "hex": "#2e3238" },
+        { "label": "Rose Gold", "hex": "#c07060" }
+      ]
+    },
+
+    {
+      "id": "vfold",
+      "num": "MODEL 02",
+      "name": "Flip Phone Pro",
+      "tag": "Vertical Foldable Smartphone",
+      "file": "models/flip-phone-pro.glb",
+      "video": "assets/video/flip-phone-pro.mp4",
+      "scale": 1.08,
+      "offsetY": 0,
+      "description": "A compact vertical-fold smartphone that fits in any pocket when closed. Opens to a full 6.7-inch display with a smooth 175-degree hinge mechanism.",
+      "specs": [
+        ["Screen", "6.7\" Dynamic AMOLED"],
+        ["Processor", "Snapdragon 8 Gen 2"],
+        ["RAM", "8 GB LPDDR5X"],
+        ["Camera", "12MP + 12MP Dual"],
+        ["Battery", "3700 mAh"]
+      ],
+      "colours": [
+        { "label": "Midnight", "hex": "#0e0d1c" },
+        { "label": "Pearl", "hex": "#eceef5" },
+        { "label": "Lavender", "hex": "#7858c0" }
+      ]
+    },
+
+    {
+      "id": "earbuds",
+      "num": "MODEL 03",
+      "name": "EarPods Pro",
+      "tag": "True Wireless Earbuds",
+      "file": "models/earpods-pro.glb",
+      "video": "assets/video/earpods-pro.mp4",
+      "scale": 0.84,
+      "offsetY": 0,
+      "description": "Premium true wireless earbuds with active noise cancellation, stored in a rounded charging case. The case lid opens to reveal the earbuds nestled inside.",
+      "specs": [
+        ["Driver", "11mm Custom Dynamic"],
+        ["ANC", "Active Noise Cancellation"],
+        ["Battery", "6h (30h with case)"],
+        ["Connectivity", "Bluetooth 5.3"],
+        ["Water Resist.", "IPX4"]
+      ],
+      "colours": [
+        { "label": "White", "hex": "#f0f2f5" },
+        { "label": "Midnight", "hex": "#1a1c26" },
+        { "label": "Yellow", "hex": "#d4960a" }
+      ]
+    },
+
+    {
+      "id": "hfold",
+      "num": "MODEL 04",
+      "name": "Fold Phone Pro",
+      "tag": "Horizontal Foldable Smartphone",
+      "file": "models/fold-phone-pro.glb",
+      "video": "assets/video/fold-phone-pro.mp4",
+      "scale": 0.94,
+      "offsetY": 0,
+      "description": "A full book-fold smartphone that expands into a 7.6-inch tablet-sized display. The left panel unfolds flat in a smooth 175-degree motion for immersive viewing.",
+      "specs": [
+        ["Main Screen", "7.6\" AMOLED, 120Hz"],
+        ["Cover Screen", "6.2\" AMOLED, 120Hz"],
+        ["Processor", "Snapdragon 8 Gen 2"],
+        ["RAM", "12 GB LPDDR5X"],
+        ["Storage", "256 GB UFS 4.0"]
+      ],
+      "colours": [
+        { "label": "Phantom", "hex": "#0c0b18" },
+        { "label": "Icy Blue", "hex": "#3a88c8" },
+        { "label": "Burgundy", "hex": "#5c1428" }
+      ]
+    }
+  ]
+}
